@@ -1,0 +1,15 @@
+<html>
+    <title>{%block title%}base{%endblock title%}</title>
+<body>
+    {% block body%}
+    
+    {% endblock %}
+    {% comment %} <hr>
+    <ul>
+        <li><a href="{% url 'index' %}">index</a></li>
+        <li><a href="{% url 'store' %}">store</a></li>
+        <li><a href="{% url 'checkout' %}">checkout</a></li>
+        <li><a href="{% url 'product' %}">product</a></li>
+    </ul> {% endcomment %}
+</body>
+</html>
